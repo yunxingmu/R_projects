@@ -12,7 +12,7 @@ library(sandwich)
 ###Reading in data & check for missing values
 
 ##1.1 read in clinical data 
-colorectal<-read.csv("/users/yunxing/Desktop/MU-graduate-school/BusinessIntelligence/data/Project/ColorectalCancerPatientData.csv")
+colorectal<-read.csv(".../ColorectalCancerPatientData.csv")
 #check for missing values
 summary(colorectal)
 # found one missing value among a total of 63 samples 
